@@ -1,0 +1,199 @@
+<?xml version = "1.0"?>
+
+<GameData>
+
+<view>
+  <viewWidth>900</viewWidth>
+  <viewHeight>500</viewHeight>
+</view>
+
+<hud>
+	<hudOffset>20.0</hudOffset>
+	<hudThick>2.0</hudThick>
+	<hudR>0</hudR>
+	<hudG>0</hudG>
+	<hudB>0</hudB>
+</hud>
+
+<screenTitle>Don't Crash!</screenTitle>
+
+<world>
+  <worldWidth>10000</worldWidth>
+  <worldHeight>640</worldHeight>
+</world>
+
+<player>
+	<playerLift>7</playerLift>
+	<playerMinVelocity>30</playerMinVelocity>
+	<playerMaxVelocity>5000</playerMaxVelocity>
+	<playerBulletName>missleBullet</playerBulletName>
+	<playerGravity>10</playerGravity>
+</player>
+
+<enemy>
+	<numOfEnemies>10</numOfEnemies>
+	<startRoom>50</startRoom>
+	<enemyAttackSpeed>100</enemyAttackSpeed>
+	<enemyAttackRange>300</enemyAttackRange>
+</enemy>
+
+<timeInterval>60</timeInterval>
+<delay>16</delay>
+
+<font name="font">
+  <fontFile>font/dyslexic-bold.otf</fontFile>
+  <fontSize>14</fontSize>
+  <fontRed>0</fontRed>
+  <fontGreen>0</fontGreen>
+  <fontBlue>0</fontBlue>
+  <fontUnused>0</fontUnused>
+</font>
+<maxStringSize>50</maxStringSize>
+
+<back>
+  <backFile>images/background1080x680.png</backFile>
+  <backSrcX>0</backSrcX>
+  <backSrcY>0</backSrcY>
+  <backWidth>1080</backWidth>
+  <backHeight>680</backHeight>
+  <backLoc backX="0" backY="=0"/>
+  <backTransparency>true</backTransparency>
+  <backRed>51</backRed>
+  <backGreen>153</backGreen>
+  <backBlue>255</backBlue>
+</back>
+
+<back2>
+  <back2File>images/background21080x680.png</back2File>
+  <back2SrcX>0</back2SrcX>
+  <back2SrcY>0</back2SrcY>
+  <back2Width>1080</back2Width>
+  <back2Height>680</back2Height>
+  <back2Loc back2X="0" back2Y="=0"/>
+  <back2Transparency>true</back2Transparency>
+</back2>
+
+<back3>
+  <back3File>images/background31080x680.png</back3File>
+  <back3SrcX>0</back3SrcX>
+  <back3SrcY>0</back3SrcY>
+  <back3Width>1080</back3Width>
+  <back3Height>680</back3Height>
+  <back3Loc back3X="0" back3Y="=0"/>
+  <back3Transparency>true</back3Transparency>
+</back3>
+
+<plane>
+  <planeFile>images/plane.png</planeFile>
+	<planeDelay>4</planeDelay>
+  <planeSrcX>0</planeSrcX>
+  <planeSrcY>0</planeSrcY>
+  <planeWidth>570</planeWidth>
+  <planeHeight>456</planeHeight>
+	<planeXFrames>5</planeXFrames>
+	<planeYFrames>8</planeYFrames>
+	<planeLevel>0</planeLevel>
+	<planeOffset>0</planeOffset>
+  <planeLoc planeX="0" planeY="0"/>
+  <planeSpeed planeSpeedX="200" planeSpeedY="10"/>
+  <planeTransparency>true</planeTransparency>
+	<planeChunkSize>50</planeChunkSize>
+	<planeChunkDuration>750</planeChunkDuration>
+</plane>
+
+<heli>
+  <heliFile>images/heli.png</heliFile>
+	<heliDelay>2</heliDelay>
+	<heliAccDelay>100</heliAccDelay>
+	<heliAcc>-50</heliAcc>
+  <heliSrcX>0</heliSrcX>
+  <heliSrcY>0</heliSrcY>
+  <heliWidth>576</heliWidth>
+  <heliHeight>792</heliHeight>
+	<heliXFrames>4</heliXFrames>
+	<heliYFrames>6</heliYFrames>
+	<heliLevel>1</heliLevel>
+	<heliOffset>0</heliOffset>
+  <heliLoc heliX="100" heliY="270"/>
+  <heliSpeed heliSpeedX="-25" heliSpeedY="15"/>
+  <heliTransparency>true</heliTransparency>
+	<heliNum>6</heliNum>
+</heli>
+
+
+<heli2>
+  <heli2File>images/heli2.png</heli2File>
+	<heli2Delay>2</heli2Delay>
+  <heli2SrcX>0</heli2SrcX>
+  <heli2SrcY>0</heli2SrcY>
+  <heli2Width>576</heli2Width>
+  <heli2Height>102</heli2Height>
+	<heli2XFrames>4</heli2XFrames>
+	<heli2YFrames>2</heli2YFrames>
+	<heli2Level>1</heli2Level>
+	<heli2Offset>0</heli2Offset>
+  <heli2Loc heli2X="1000" heli2Y="300"/>
+  <heli2Speed heli2SpeedX="200" heli2SpeedY="10"/>
+  <heli2Transparency>true</heli2Transparency>
+	<heli2Num>10</heli2Num>
+	<heli2ChunkSize>50</heli2ChunkSize>
+	<heli2ChunkDuration>750</heli2ChunkDuration>
+</heli2>
+
+<pman>
+  <pmanFile>images/pman.png</pmanFile>
+	<pmanDelay>10</pmanDelay>
+  <pmanSrcX>0</pmanSrcX>
+  <pmanSrcY>0</pmanSrcY>
+  <pmanWidth>180</pmanWidth>
+  <pmanHeight>45</pmanHeight>
+	<pmanXFrames>4</pmanXFrames>
+	<pmanYFrames>1</pmanYFrames>
+	<pmanLevel>0</pmanLevel>
+	<pmanOffset>0</pmanOffset>
+  <pmanLoc pmanX="2000" pmanY="5"/>
+  <pmanSpeed pmanSpeedX="60" pmanSpeedY="150"/>
+  <pmanTransparency>true</pmanTransparency>
+	<pmanNum>12</pmanNum>
+</pman>
+
+<cloud2>
+  <cloud2File>images/cloud2.png</cloud2File>
+	<cloud2Delay>10</cloud2Delay>
+  <cloud2SrcX>0</cloud2SrcX>
+  <cloud2SrcY>0</cloud2SrcY>
+  <cloud2Width>48</cloud2Width>
+  <cloud2Height>48</cloud2Height>
+	<cloud2XFrames>1</cloud2XFrames>
+	<cloud2YFrames>1</cloud2YFrames>
+	<cloud2Level>0</cloud2Level>
+	<cloud2Offset>0</cloud2Offset>
+  <cloud2Loc cloud2X="2160" cloud2Y="340"/>
+  <cloud2Speed cloud2SpeedX="15" cloud2SpeedY="10"/>
+  <cloud2Transparency>true</cloud2Transparency>
+	<cloud2Num>200</cloud2Num>
+</cloud2>
+
+<missleBullet>
+  <missleBulletFile>images/missle.png</missleBulletFile>
+	<missleBulletDelay>2</missleBulletDelay>
+  <missleBulletSrcX>0</missleBulletSrcX>
+  <missleBulletSrcY>0</missleBulletSrcY>
+  <missleBulletWidth>272</missleBulletWidth>
+  <missleBulletHeight>24</missleBulletHeight>
+	<missleBulletXFrames>4</missleBulletXFrames>
+	<missleBulletYFrames>2</missleBulletYFrames>
+	<missleBulletLevel>0</missleBulletLevel>
+	<missleBulletOffset>0</missleBulletOffset>
+  <missleBulletLoc X="2000" Y="5"/>
+  <missleBulletSpeed missleBulletSpeedX="300" missleBulletSpeedY="0"/>
+  <missleBulletTransparency>true</missleBulletTransparency>
+  <missleBulletInterval>500</missleBulletInterval>
+  <missleBulletDistance>500</missleBulletDistance>
+  <missleBulletRightPositionX>24</missleBulletRightPositionX>
+  <missleBulletRightPositionY>28</missleBulletRightPositionY>
+  <missleBulletLeftPositionX>24</missleBulletLeftPositionX>
+  <missleBulletLeftPositionY>28</missleBulletLeftPositionY>
+</missleBullet>
+
+</GameData>
