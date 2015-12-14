@@ -1,71 +1,62 @@
-<h1>Name: Aaron Mast</h1>
-Email: amast@clemson.edu
-Date: 04/23/2012
-Proj No: 5
+### Name: Aaron Mast
+### Email: amast@clemson.edu</h4>
+### Date: 04/23/2012
+### Proj No: 5
 
-Description:
+### Description:
 1. Incorporated AI
 2. Incorporated a Menu
 
-To change the XML file and the animation:
-Sprite sources, destinations, speeds, number of them.
-MultiFrameSprite delays between frame updates, number of them.
-Change how long the explosions last
-Change how far a missle will travel
-Change the min and max speed of the player
-Change the number of any of the sprites other than the player
-Change all of the locations, player is the only one who takes an exact
-coordinate the rest of the sprites are randomly generated
-Setup initial number of enemies
-Setup player breathing room for the start
-You can change almost anything through the xml
+To change the XML file and the animation:  
+Sprite sources, destinations, speeds, number of them.  
+MultiFrameSprite delays between frame updates, number of them.  
+Change how long the explosions last  
+Change how far a missle will travel  
+Change the min and max speed of the player  
+Change the number of any of the sprites other than the player  
+Change all of the locations, player is the only one who takes an exact  
+coordinate the rest of the sprites are randomly generated  
+Setup initial number of enemies  
+Setup player breathing room for the start  
+You can change almost anything through the xml  
 
 
-*MAKE SURE THE INITIAL VELOCITY MATCHES UP WITH THE CORRECT ROW OF THE SPRITE
-(the way mine are, usually negative velocity will correspond to row 1 and
-positive velocity will correspond to row 0)
+*MAKE SURE THE INITIAL VELOCITY MATCHES UP WITH THE CORRECT ROW OF THE SPRITE  
+(the way mine are, usually negative velocity will correspond to row 1 and positive velocity will correspond to row 0)
 
-The Specs that I implemented are:
-Enemy Class - used composite pattern to wrap MultiFrameClass with enemy features
-in order for enemies to be any MultiFrame sub class
-Menu Classes - your menu implimentation, but added a gravity parameter and a
-help section
+The Specs that I implemented are: 
+Enemy Class - used composite pattern to wrap MultiFrameClass with enemy features in order for enemies to be any MultiFrame sub class  
+Menu Classes - your menu implimentation, but added a gravity parameter and a help section  
 
-The Specs that I was unable to implement are:
-NONE!!! ITS PERFECT!!!
+The Specs that I was unable to implement are:  
+NONE!!! ITS PERFECT!!!  
 
-Extras:
-All sprites are feverishly sweat blood and tears made by yours truly.
+Extras:  
+All sprites are feverishly sweat blood and tears made by yours truly.  
 
-Notes:
-See help section inside my menu for detailed information
+Notes:  
+See help section inside my menu for detailed information  
 
-Enemey AI = if the player is within the attack range and in front of the enemy
-then the enemy will increase X and Y velocity by the attack speed, the Y
-velocity will be set to 0 when it reaches a Y of within 20 of the player
-this is to reduce jutter if you make it stop exactly on the player Y coord
-because the player will not be holding to a constant Y coordinate, once these
-conditions are no longer met the enemy resumes it's previous velocities from
-before it was tracking the player
+Enemey AI = if the player is within the attack range and in front of the enemy then the enemy will increase X and Y velocity by the attack speed, the Y velocity will be set to 0 when it reaches a Y of within 20 of the player
+this is to reduce jutter if you make it stop exactly on the player Y coord because the player will not be holding to a constant Y coordinate, once these conditions are no longer met the enemy resumes it's previous velocities from before it was tracking the player
 
-Mac Instructions
+Mac Instructions:  
 
-1. Install SDL and SDL_ttf, etc.
+```
+# Install SDL and SDL_ttf, etc.
+$ brew install sdl sdl_ttf sdl_gfx sdl_image sdl_mixer```
 
-```$ brew install sdl sdl_ttf sdl_gfx sdl_image sdl_mixer```
+# Build
+$ make
 
-2. Build
+# Run it
+$ ./run
+```
 
-```$ make```
-
-3. Run it
-
-```$ ./run```
-
-Note for El Captain (Xcode 7.* Users), if you still getting a,
+Note for El Captain (Xcode 7.* Users), if you still getting a,  
 
 ```fatal error: 'SDL/SDL.h' file not found```
 
-error you may need to install Xcode command line tools
+error you may need to install Xcode command line tools  
 
 ```$ xcode-select --install```
