@@ -1,13 +1,13 @@
-### Name: Aaron Mast
-### Email: amast@clemson.edu</h4>
-### Date: 04/23/2012
-### Proj No: 5
+##### Name: Aaron Mast
+##### Email: amast@clemson.edu</h4>
+##### Date: 04/23/2012
+##### Proj No: 5
 
-### Description:
+##### Description:
 1. Incorporated AI
 2. Incorporated a Menu
 
-To change the XML file and the animation:  
+###### To change the XML file and the animation:  
 Sprite sources, destinations, speeds, number of them.  
 MultiFrameSprite delays between frame updates, number of them.  
 Change how long the explosions last  
@@ -21,7 +21,7 @@ Setup player breathing room for the start
 You can change almost anything through the xml  
 
 
-*MAKE SURE THE INITIAL VELOCITY MATCHES UP WITH THE CORRECT ROW OF THE SPRITE  
+***MAKE SURE THE INITIAL VELOCITY MATCHES UP WITH THE CORRECT ROW OF THE SPRITE** 
 (the way mine are, usually negative velocity will correspond to row 1 and positive velocity will correspond to row 0)
 
 The Specs that I implemented are: 
