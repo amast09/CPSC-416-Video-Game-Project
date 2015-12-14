@@ -1,7 +1,7 @@
 #ifndef CLOCK__H
 #define CLOCK__H
 
-#include <SDL.h>
+#include <SDL/SDL.h>
 #include <string>
 #include <iostream>
 #include <fstream>

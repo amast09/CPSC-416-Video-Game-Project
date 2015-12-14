@@ -1,4 +1,4 @@
-#include <SDL.h>
+#include <SDL/SDL.h>
 #include <stdint.h>
 
 #ifndef _AALINE_H
