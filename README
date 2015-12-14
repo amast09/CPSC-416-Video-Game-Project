@@ -52,8 +52,20 @@ Mac Instructions
 
 1. Install SDL and SDL_ttf, etc.
 
-  $ brew install sdl sdl_ttf sdl_gfx sdl_image sdl_mixer
+```$ brew install sdl sdl_ttf sdl_gfx sdl_image sdl_mixer```
+
+2. Build
+
+```$ make```
 
 3. Run it
 
-  $ ./run
+```$ ./run```
+
+Note for El Captain (Xcode 7.* Users), if you still getting a,
+
+```fatal error: 'SDL/SDL.h' file not found```
+
+error you may need to install Xcode command line tools
+
+```$ xcode-select --install```
