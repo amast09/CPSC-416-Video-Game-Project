@@ -1,4 +1,5 @@
-##### Mac Instructions:  
+#### CPSC 416 Capstone Project  
+##### Instructions to Run on OSX:  
 
 ```
 # Install SDL and SDL_ttf, etc.
@@ -10,8 +11,6 @@ $ make
 # Run it
 $ ./run
 ```
-
-##### CPSC 416 Capstone Project
 
 ##### Name: Aaron Mast
 ##### Email: amast@clemson.edu</h4>
