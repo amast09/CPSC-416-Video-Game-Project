@@ -52,13 +52,13 @@ Notes:
 See help section inside my menu for detailed information  
 
 Enemey AI = if the player is within the attack range and in front of the enemy then the enemy will increase X and Y velocity by the attack speed, the Y velocity will be set to 0 when it reaches a Y of within 20 of the player
-this is to reduce jutter if you make it stop exactly on the player Y coord because the player will not be holding to a constant Y coordinate, once these conditions are no longer met the enemy resumes it's previous velocities from before it was tracking the player
+this is to reduce jutter if you make it stop exactly on the player Y coord because the player will not be holding to a constant Y coordinate, once these conditions are no longer met the enemy resumes it's previous velocities from before it was tracking the player  
 
 
-Note for El Captain (Xcode 7.* Users), if you still getting a,  
+####Note for El Captain (Xcode 7.* Users), if you still getting a,  
 
 ```fatal error: 'SDL/SDL.h' file not found```
 
-error you may need to install Xcode command line tools  
+####error you may need to install Xcode command line tools  
 
 ```$ xcode-select --install```
