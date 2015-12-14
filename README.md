@@ -3,7 +3,7 @@
 
 ```
 # Install dependancies
-$ brew install sdl sdl_ttf sdl_gfx sdl_image sdl_mixer```
+$ brew install sdl sdl_ttf sdl_gfx sdl_image sdl_mixer
 
 # Build
 $ make
