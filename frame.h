@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <string>
-#include <SDL.h>
+#include <SDL/SDL.h>
 
 class Frame {
 public:

@@ -1,8 +1,8 @@
 #ifndef SINGLE__H
 #define SINGLE__H
-#include <SDL.h>
-#include <SDL_ttf.h>
-#include <SDL_image.h>
+#include <SDL/SDL.h>
+#include <SDL/SDL_ttf.h>
+#include <SDL/SDL_image.h>
 #include <string>
 #include <sstream>
 using std::string;

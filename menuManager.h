@@ -1,4 +1,4 @@
-#include <SDL.h>
+#include <SDL/SDL.h>
 #include "ioManager.h"
 #include "menu.h"
 #include "clock.h"

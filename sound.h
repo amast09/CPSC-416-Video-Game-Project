@@ -2,7 +2,7 @@
 #include  <string>
 #include  <vector>
 #include <stdlib.h>
-#include <SDL.h>
+#include <SDL/SDL.h>
 #include <SDL/SDL_mixer.h>
 
 // In this demo, we use Mix_Music *Mix_LoadMUS(const char *file)

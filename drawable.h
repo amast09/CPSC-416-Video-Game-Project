@@ -1,6 +1,6 @@
 #ifndef DRAWABLE__H
 #define DRAWABLE__H
-#include <SDL.h>
+#include <SDL/SDL.h>
 #include <iostream>
 #include <string>
 #include "vector2f.h"
