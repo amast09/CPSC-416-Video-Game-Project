@@ -2,7 +2,7 @@
 ##### Instructions to Run on OSX:  
 
 ```
-# Install SDL and SDL_ttf, etc.
+# Install dependancies
 $ brew install sdl sdl_ttf sdl_gfx sdl_image sdl_mixer```
 
 # Build
