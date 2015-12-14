@@ -1,4 +1,4 @@
-Name: Aaron Mast
+<h1>Name: Aaron Mast</h1>
 Email: amast@clemson.edu
 Date: 04/23/2012
 Proj No: 5
