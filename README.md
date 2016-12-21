@@ -12,6 +12,19 @@ $ make
 $ ./run
 ```
 
+##### If you encounter the error
+```
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/sdl-config
+/usr/local/bin is not writable.
+```
+
+##### Run the following command
+```
+$ sudo chown -R $(whoami) /usr/local/bin
+```
+
 ##### Name: Aaron Mast
 ##### Email: amast@clemson.edu</h4>
 ##### Date: 04/23/2012
